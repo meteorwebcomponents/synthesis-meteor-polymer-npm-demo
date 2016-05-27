@@ -1,0 +1,15 @@
+<dom-module id="test-element">
+  <template>
+    <style>
+paper-button{
+  color:blue;
+}
+    </style>
+    <div class="layout vertical center center-justified">
+    <div>status : {{status}}</div>
+    <paper-button raised on-tap="increment">Click Me</paper-button>
+    You've pressed the button [[counter]] times.
+    </div>
+  </template>
+</dom-module>
+<script src="test-element.js"></script>

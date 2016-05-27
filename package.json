@@ -1,0 +1,11 @@
+{
+  "name": "synthesis-demo",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@polymer/paper-elements": "0.0.3",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}
