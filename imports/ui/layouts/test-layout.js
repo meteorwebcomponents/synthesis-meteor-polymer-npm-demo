@@ -1,3 +1,3 @@
 Polymer({
-  is:"test-layout"
-})
+  is: 'test-layout',
+});
